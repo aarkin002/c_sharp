@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Каждая точка в 3D пространстве имеет координаты (X, Y, Z) ");
+Console.WriteLine("Введите координату X для первой точки и нажмите ввод:");
+double ax = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату Y для первой точки и нажмите ввод:");
+double ay = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату Z| для первой точки и нажмите ввод:");
+double az = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату X для второй точки и нажмите ввод:");
+double bx = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату Y для второй точки и нажмите ввод:");
+double by = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату Z| для второй точки и нажмите ввод:");
+double bz = double.Parse(Console.ReadLine());
+Console.WriteLine("Расстояние между точками в 3D пространстве равно: {0}", Math.Sqrt(Math.Pow((bx-ax),2)+Math.Pow((by-ay),2)+Math.Pow((bz-az),2)));
